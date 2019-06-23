@@ -8,12 +8,15 @@ Implement following interface to generate Employee report. Below API needs to be
  * getEmployeeByDesignation(String designation)
  * getAllSubOrdinatesOfEmployee(String employeeId)
 
+```
+        public interface IEmployeeReportGenerator {
+   	    List<Employee> getEmployeeByLocation(String location);
+   	    List<Employee> getEmployeeByDesignation(Designation designation);
+   	    List<Employee> getAllSubOrdinatesOfEmployee(String employeeId);
+   	}
 
-	public interface IEmployeeReportGenerator {
-	    List<Employee> getEmployeeByLocation(String location);
-	    List<Employee> getEmployeeByDesignation(Designation designation);
-	    List<Employee> getAllSubOrdinatesOfEmployee(String employeeId);
-	}
+```
+	
 An Employee can have list of subordinates who are also an employee :
 
 - Employee will have:
