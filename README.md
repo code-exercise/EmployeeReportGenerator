@@ -48,7 +48,7 @@ An Employee can have list of subordinates who are also an employee :
 | 14 | Graciela	 |   VICE PRESIDENT	 |   Kulpsville	   |   3	 
 
 
-Example: 
+Example( Considering above sample): 
 
  * List<Employee> getEmployeeByLocation("Brighton") should return
  
