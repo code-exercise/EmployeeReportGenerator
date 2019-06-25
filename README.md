@@ -24,7 +24,6 @@ An Employee can have list of subordinates who are also an employee :
 	 - name
 	 - designation
 	 - location
-	 - managerId
 	 - List of subordinate employees
 	 
 	 
